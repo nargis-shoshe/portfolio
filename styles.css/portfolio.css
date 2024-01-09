@@ -1,11 +1,12 @@
-
 nav{
-    display:flex
-    
-              
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
 }
 nav>ul{
+    align-items: center;
     display:flex
+    
 }
 .text-primary{
    color: #FD6E0A; 
@@ -40,3 +41,4 @@ font-style: normal;
 font-weight: 800;
  
 }
+
