@@ -96,6 +96,10 @@ body {
 }
 
 /* Main about section*/
+main{
+    max-width: 1140px; 
+    margin: 0 auto;
+}
 .about {
     padding: 131px;
     border-radius: 10px;
@@ -115,4 +119,11 @@ body {
     text-align: center;
     font-size: 18px;
      
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
