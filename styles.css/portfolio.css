@@ -23,11 +23,11 @@ nav>ul {
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
-    color:#FFF;
+    color: #FFF;
     border: 0;
     font-size: 20px;
     padding: 15px 35px;
-    
+
 }
 
 nav li {
@@ -173,7 +173,7 @@ main section {
 
 .resume-item-title-description {
     color: #757575;
-margin-bottom: 30px;
+    margin-bottom: 30px;
     font-size: 16px;
 }
 
@@ -190,7 +190,36 @@ margin-bottom: 30px;
     font-size: 25px;
     margin-bottom: 20px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
-    margin: 50px ;
+    margin: 50px;
+}
+
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 130px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #757575;
+    font-size: 16px;
+    border: 0px;
+    width:100%
+}
+.social-links a {
+    margin-right: 25px;
 }
