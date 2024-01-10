@@ -23,11 +23,11 @@ nav>ul {
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
-    color: var(--White-Color, #FFF);
+    color:#FFF;
     border: 0;
     font-size: 20px;
-    font-weight: 700;
     padding: 15px 35px;
+    
 }
 
 nav li {
@@ -162,4 +162,35 @@ main section {
     color: #474747;
     font-family: Open Sans;
     font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 71px;
+    margin: 30px auto;
+}
+
+.resume-item-title-description {
+    color: #757575;
+margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.resumeitem-title-institute {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.resume-item-title {
+    color: var(--Dark-03, #757575);
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.download-cv{
+    text-align: center;
+    margin: 50px ;
 }
